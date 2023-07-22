@@ -1,0 +1,20 @@
+{
+  "name": "pdfstreamer",
+  "version": "0.0.3",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "pdfstreamer": "lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ziggy.jonsson.nyc@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
