@@ -7,7 +7,7 @@
     "pdfstreamer": "lib/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx tap test --no-check-coverage --coverage-report=html --no-browser"
   },
   "author": "ziggy.jonsson.nyc@gmail.com",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "minimist": "^1.2.8"
   },
   "devDependencies": {
-    "eslint": "^8.45.0"
+    "@types/node": "^20.4.4",
+    "tap": "^16.3.7"
   }
 }
