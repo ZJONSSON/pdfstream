@@ -33,5 +33,5 @@ This package comes with a cli which can be handy if the module is installed glob
 
 Usage example:
 ```
-pdfstream file1.pdf file2.pdf file3.pdf > output.pdf
+pdfstreamer file1.pdf file2.pdf file3.pdf > output.pdf
 ```
