@@ -37,6 +37,7 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
       - run: npm test
+      - run: npx lcov-badge2 coverage/lcov.info -o coverage/lcov-report/badge.svg
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
