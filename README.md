@@ -1,4 +1,6 @@
 ## PdfStreamer
+[![code coverage](https://zjonsson.github.io/pdfstreamer/badge.svg)](https://zjonsson.github.io/pdfstreamer/) 
+[![npm version](https://img.shields.io/npm/v/pdfstreamer)](https://www.npmjs.com/package/pdfstreamer)
 
 PdfStream is an experimental class that streams multiple pdf files into a single pdf file.   Unlike most pdf utilities, PdfStream does not try to decode each incoming pdf file into an object tree. In fact,  PdfStream never has access to the entire pdf buffer. Instead, PdfStream watches for object definitions on a streaming basis in each incoming file and pushes every definition to the output stream,  modifying object ids and indirect object references along the stream to ensure they are unique.    PdfStream keeps track of all object pointer locations, and when the output stream is finalized,  a complete xref table is written, along with a new catalog and a bookmark section.
 
